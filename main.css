@@ -1,6 +1,12 @@
 body
 {
-background: radial-gradient(circle, yellow, orange, red, black);
+background: url("https://image.freepik.com/free-vector/abstract-luxury-background_9111-1322.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+color: black;
+}
+.white{
+    color: white;
 }
 
 	.login_div1 , .login_div2
@@ -33,4 +39,7 @@ border-top: 10px solid #AA4465;
 padding: 10px;
 float: none;
 text-align: left;
+}
+input{
+    text-align: center;
 }
